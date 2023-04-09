@@ -13,8 +13,8 @@ package array;
 	           
 	            if (mp.get(a[i]) == null)//to check element there in hashmap or not
 	            {
-	                System.out.print(a[i] + " ");
-	                mp.put(a[i], true);
+	                System.out.print(a[i] + " ");//if not already theree in hashmap then print 
+	                mp.put(a[i], true);//then  put inside hasshmap and set value to true 
 	            }
 	        }
 	    }
